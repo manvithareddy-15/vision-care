@@ -45,14 +45,14 @@ with col1:
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.subheader("👁️ Eye Analysis")
     if st.button("Analyse my Eye"):
-        st.switch_page("pages/EYE_ANALYSIS.py")
+        st.switch_page("EYE_ANALYSIS")
     st.markdown('</div>', unsafe_allow_html=True)
 
 with col2:
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.subheader("👨‍⚕️ Doctor Appointment")
     if st.button("Book Appointment"):
-        st.switch_page("pages/DOCTOR_APPOINTMENT.py")
+        st.switch_page("DOCTOR_APPOINTMENT")
     st.markdown('</div>', unsafe_allow_html=True)
 
 # Logout

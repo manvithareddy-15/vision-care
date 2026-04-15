@@ -295,4 +295,4 @@ st.markdown('</div>', unsafe_allow_html=True)
 # Back to Dashboard
 st.markdown("---")
 if st.button("← Back to Dashboard", use_container_width=True):
-    st.switch_page("LOGIN.py")
+    st.switch_page("LOGIN")
