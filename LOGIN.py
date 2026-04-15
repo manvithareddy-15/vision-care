@@ -383,7 +383,7 @@ def render_patient_dashboard():
         </div>
         """, unsafe_allow_html=True)
         if st.button("Go to Eye Analysis", key="eye_analysis_btn", use_container_width=True):
-            st.switch_page("EYE_ANALYSIS.py")
+            st.switch_page("pages/EYE_ANALYSIS.py")
 
     with col2:
         st.markdown("""
@@ -393,7 +393,7 @@ def render_patient_dashboard():
         </div>
         """, unsafe_allow_html=True)
         if st.button("Book Appointment", key="appointment_btn", use_container_width=True):
-            st.switch_page("DOCTOR_APPOINTMENT.py")
+            st.switch_page("DOCTOR_APPOINTMENT")
 
     st.markdown("---")
 
